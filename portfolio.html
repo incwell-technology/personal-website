@@ -1,0 +1,75 @@
+<html>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        h1{
+            color:rgba(23, 233, 135, 0.651);
+            font-weight: bold;
+            text-align:center;
+        }
+        .leftalign{
+        text-align: left;
+        }
+        .rightalign{
+            text-align: right;
+        }
+        
+        .box{
+            border-style: inset;
+            border-color: silver;
+            background-color: white; 
+            width: 1000px;
+            height: 400px; 
+            padding: 100px;
+            margin: 20px;
+            margin-left: 14%;  
+        }
+        .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 10px;
+        }
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+    </style>
+<head>
+    <title></title>
+    <h1>SKILLS</h1>
+</head>
+<body>
+    <div class="box row:after">
+        <div class="leftalign column">
+            <div>
+                lorem ipsum lorem ipsum lorem ipsum lorem<br>
+                lorem ipsum lorem ipsum lorem ipsum lorem<br>
+                lorem ipsum lorem ipsum lorem ipsum lorem<br>
+                lorem ipsum lorem ipsum lorem ipsum lorem<br>
+                lorem ipsum lorem ipsum lorem ipsum lorem<br>
+                
+            </div>
+        </div>
+        <div class="rightalign column">
+            <div>Front-end Development</div>
+            <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue w3-tiny" style="width:90%">90%</div>
+                  </div><br>
+            <div>Back-end Development</div>
+            <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue w3-tiny" style="width:85%">85%</div>
+                  </div><br>
+            <div>Mobile App development</div>
+            <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue w3-tiny" style="width:75%">75%</div>
+                  </div><br>
+            <div>Desktop Development</div>
+            <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue w3-tiny" style="width:80%">85%</div>
+                  </div><br>
+    </div>
+    </div>
+</body>
+</html>
