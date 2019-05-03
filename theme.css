@@ -1,130 +1,11 @@
-.background-theme{
-    height:100% ;
-    width: 100%;
-    position: absolute;
-    
-}
-.background-top{
-    height: 300px;
-    background-color: rgb(120, 167, 120);
-}
-.background-bottom{
-    height: 1500px;
-    background-color: rgb(216, 215, 215);
-   
-}
-body{
-    margin: 0;
-    padding: 0;
-}
-.main-container{
-    width: 1100px;
-    margin: 0 auto;
-    position: relative;
-}
-.nav-bar{
-    height: 300px;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-.grid-left{
-    padding-top: 20px;
-    color: white;
-    width: 50%;
-}
-.grid-right{
-    float: right;
-    margin-top: -60px;
-}
-ul{
-    list-style: none;
-}
-.grid-right li{
-    display: inline;
-}
-.profile-container{
-    background-color: white;
-    height: 315px;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: -120px;
-}
-.profile-container .column {
-    float: left;
-    width: 50%;
-  }
-  
-  .profile-container .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .column img{
-      width: 80%;
-      height: 100%;
-  }
-  h1, p{
-      font-size: justify;
-  }
-  hr{
-      width: 90%;
-      margin-right: 10%;
-  }
-  .column .col-right{
-      height: 100%;
-  }
-.title{
-      font-weight: bold;
-  }
- 
-.row-third{
-    height: 22%;
-    width: 120%;
-    margin-left: -20%;
-    background-color: rgb(120, 167, 120);
-   
- }
-.row .row-first{
-    margin-left: -10%;
-}
-.row .row-second{
-    margin-left: -10%;
-}
-  .icon-space{
-      padding: 20px 25px 20px;
-  }
-  .main-grid
-  {
-    margin-left: -10%;
-    display: grid;
-    grid-template-columns: 20px 100px;
-    grid-column-gap: 60px;
-  }
-  
-  .main-grid-icon
-  {
-    margin-left: -10%;
-  }
- 
-.container-education{
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    text-align: center;
-    
-
-}
-.heading{
-    padding-top: 25px;
-    text-align: center;
-    color: rgb(120, 167, 120);
-}
 * {
     box-sizing: border-box;
   }
   
+  body {
+    background-color: #474e5d;
+    font-family: Helvetica, sans-serif;
+  }
   
   /* The actual timeline (the vertical ruler) */
   .timeline {
@@ -160,7 +41,7 @@ ul{
     position: absolute;
     width: 10px;
     height: 10px;
-    right: -4px;
+    right: -6px;
     background-color: rgb(120, 167, 120);
     top: 35px;
     border-radius: 50%;
