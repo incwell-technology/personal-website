@@ -1,5 +1,5 @@
 .background-theme{
-    height:100% ;
+    height:auto;
     width: 100%;
     position: absolute;
     
@@ -24,9 +24,9 @@ body{
 }
 .nav-bar{
     height: 300px;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .grid-left{
     padding-top: 20px;
@@ -46,82 +46,81 @@ ul{
 .profile-container{
     background-color: white;
     height: 315px;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: -120px;
 }
-.profile-container .column {
-    float: left;
-    width: 50%;
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #ffffff;
+}
+.display-image{
+  overflow: hidden;
+}
+.display-image img{ 
+  width: 100%;
+} 
+.main-grid
+  {
+    display: grid;
+    grid-template-columns: 20px 100px;
+    grid-column-gap: 80px;
   }
-  
-  .profile-container .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .column img{
-      width: 80%;
-      height: 100%;
-  }
-  h1, p{
+.details-top{
+  padding-left: 30px;
+}
+.details-icons{
+  background-color: rgb(120, 167, 120);
+}
+h1, p{
       font-size: justify;
   }
-  hr{
+hr{
       width: 90%;
       margin-right: 10%;
-  }
-  .column .col-right{
-      height: 100%;
   }
 .title{
       font-weight: bold;
   }
   
-.row .row-first{
-  margin-left: -10%;
-}
-.row .row-second{
-  margin-left: -10%;
-  margin-top: -15px;
-}
- 
-.row-third{
-    height: 66px;
-    width: 120%;
-    margin-left: -20%;
-    background-color: rgb(120, 167, 120);
-   
- }
   .icon-space{
       padding: 20px 25px 20px;
   }
-  .main-grid
-  {
-    margin-left: -10%;
-    display: grid;
-    grid-template-columns: 20px 100px;
-    grid-column-gap: 60px;
-  }
-  
-  .main-grid-icon
-  {
-    margin-left: -10%;
-  }
- 
-.container-education{
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    text-align: center;
-    padding-top: 60px;
-}
+
 .heading{
     padding-top: 60px;
     text-align: center;
     color: rgb(120, 167, 120);
 }
+.skill{
+  
+  grid-template-columns: 50% 50%;
+  padding: 20px 20px 20px 20px;
+}
+.container-skill{
+  height: 300px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.w3-blue
+{
+  
+  background-color: rgb(120, 167, 120);
+}
+.container-education{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  padding-top: 60px;
+}
+
+
 * {
     box-sizing: border-box;
   }
@@ -258,30 +257,5 @@ ul{
   h5{
     margin-top: -2%;
   }
-  
-.container-skill{
-  height: 300px;
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
+    
 }
-
-  .column1:after {
-    content: "";
-    display: table;
-    clear: both;
-}
- .column1 {
-            float: left;
-            width: 50%;
-            padding: 10px;
-            height: 150px;
-            background-color: white;
-        }
-
-        .box{
-            border-style: inset;
-            background-color: white; 
-            width: 100%;
-            height: 300px; 
-        }
