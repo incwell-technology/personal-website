@@ -9,7 +9,7 @@
     background-color: rgb(120, 167, 120);
 }
 .background-bottom{
-    height: 2500px;
+    height: 2800px;
     background-color: rgb(216, 215, 215);
    
 }
@@ -168,22 +168,56 @@ hr{
 }
 .project-grid{
   display: grid;
-  grid-template-columns: 35% 35% 35%;
+  grid-template-columns: 50% 50%;
  padding-left: 100px;
- margin-bottom: 20px;
  margin: 20px 0;
 }
 .project-content{
   background-color: white;
-  color: rgb(120, 167, 120);
-  width: 60%;
-  height: 100px;
+  width: 80%;
+  height: 250px;
   border: 1px solid grey;
-  border-radius: 10%;
+  border-radius: 5px;
   text-align: center;
-  box-shadow: 10px 10px grey;
+  box-shadow: 1px 1px rgb(155, 154, 154);
 }
 
+.project-title{
+  padding-top: 0;
+  height: 100px;
+  background-color: rgb(120, 167, 120);
+  color: white;
+}
+h2{
+  padding-top: 25px;
+  margin-top: 0 !important;
+}
+.project-topic{
+  height: 50px;
+}
+.text-topic{
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 8px;
+}
+.text-sub-topic{
+  margin-top: -20px;
+  text-align: left;
+  padding-left: 8px;
+}
+
+.project-details{
+  color: rgb(120, 167, 120);
+  margin-top: 50px;
+  font-size: 16px;
+  margin-left: -145px;
+  padding-top: -15px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
 .comment{
   border: 1px solid rgb(120, 167, 120);
   height: 30px;
